@@ -3,10 +3,10 @@ package com.laioffer.job.db;
 public class MySQLDBUtil {
     private static final String INSTANCE = "laiproject-instance.cjc931ic6ylb.us-east-2.rds.amazonaws.com";
     private static final String PORT_NUM = "3306";
-    public static final String DB_NAME = "laiproject";
-    private static final String USERNAME = "admin";
+    public static final String DB_NAME = "";
+    private static final String USERNAME = "";
     // production use SSH key to connect
-    private static final String PASSWORD = "yx19901025";
+    private static final String PASSWORD = "";
     public static final String URL = "jdbc:mysql://"
             + INSTANCE + ":" + PORT_NUM + "/" + DB_NAME
             + "?user=" + USERNAME + "&password=" + PASSWORD
